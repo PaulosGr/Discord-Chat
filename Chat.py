@@ -11,7 +11,7 @@ client = discord.Client(intents=intents)
 
 # Set up the OpenAI API client
 openai.api_key = os.environ.get(
-  "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")
+  "------------")
 
 
 # Define the function that generates text using Chat GPT
@@ -49,4 +49,4 @@ async def on_message(message):
 
 
 # Start the bot
-client.run(os.environ.get("MTA5MDI5NTE2NzE3ODc2ODUyNQ.G1LFXF._K_frlCjp1zYHKKpkNfd_Dm6sgemv7oKqb4rqI"))
+client.run(os.environ.get("-------------------"))
